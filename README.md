@@ -33,7 +33,7 @@ docker run -it --rm -v /home/<user>/results/:/root/results/ hax3xploit/recon-tai
 ## Add to .bashrc or .zshrc
 Add this line to your .bashrc or .zshrc, so you dont have to write whole docker command every time.
 ```bash
-alias recon-tainer="docker run -it --rm -v /root/subdomains/results/:/root/results/ hax3xploit/recon-tainer:v1.0"
+alias recon-tainer="docker run -it --rm -v /root/results/:/root/results/ hax3xploit/recon-tainer:v1.0"
 ```
 
 
