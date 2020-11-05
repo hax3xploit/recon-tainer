@@ -23,7 +23,7 @@ mainPATH=$(pwd)/
 param="gau" # use gau or waybackmachine
 bar="---------------------------------------"
 
-echo -e "\n$bar\n\t ${RED} @hax3xploit ${NOCOLOR} \n$bar\n"
+echo -e "\n$bar\n\t ${RED} @hax_3xploit ${NOCOLOR} \n$bar\n"
 read -p "Please enter target (i.e. site.com): " domain
 
 HOST=$domain
