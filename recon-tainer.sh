@@ -196,10 +196,10 @@ function interestingEXT(){
 
 }
 
-function dirsearch(){
-    echo -e "\n${bar}\n${WHITE}Launching ${GREEN}Dirsearch${WHITE} on all filtered subdomains${NOCOLOR}\n${bar}\n"
-    cat /root/results/$domain/$domain-alive.txt | xargs -I@ sh -c "python3 /root/dirsearch/dirsearch.py -r -b -w  /root/dirsearch/db/dicc.txt -u @ -e php,html,json,aspx --plain-text-report ${dirsearchPATH}" 
-}
+# function dirsearch(){
+#     echo -e "\n${bar}\n${WHITE}Launching ${GREEN}Dirsearch${WHITE} on all filtered subdomains${NOCOLOR}\n${bar}\n"
+#     cat /root/results/$domain/$domain-alive.txt | xargs -I@ sh -c "python3 /root/dirsearch/dirsearch.py -r -b -w  /root/dirsearch/db/dicc.txt -u @ -e php,html,json,aspx --plain-text-report ${dirsearchPATH}" 
+# }
 
 
 
@@ -241,4 +241,4 @@ img-traversal
 sleep 1
 interestingEXT
 sleep 1
-dirsearch
+# dirsearch
